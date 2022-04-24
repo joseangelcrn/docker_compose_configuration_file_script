@@ -7,7 +7,7 @@ Simple script to quick setup configuration such as ports, database name, volume 
 1- Download Oficial Bitnami docker_compose.yml :
 
 ```
-$ curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/master/docker-compose.yml
+curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/master/docker-compose.yml
 ```
 2- Clone repository and open file ```custom_docker_file_compose.sh```  , then change whatever ```custom_``` variables to change default  bitnami laravel ```docker_compose.yml```  file. <br>
 3- Adapt other important variables such as:
