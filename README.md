@@ -1,7 +1,6 @@
 # docker_compose_configuration_file_script <br> (laravel bitnami)
 Simple script to quick setup configuration such as ports, database name, volume folder, etc..
 
-## This script is based on 
 
 # Steps..
 
@@ -20,17 +19,17 @@ curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/master
   - ```$path_docker_compose_yml``` => Place where is original bitnami compose file
   - ```$output_path``` => Place where you want to save customize file after run script
   
-5- Execute : 
+5- Execute script to change variables : 
 ```
 ./custom_docker_compose.sh
 ```
 
-6- Execute to replace **official** ```docker-compose``` file to **custom** ```docker-compose``` file:
+6- Replace **official** ```docker-compose``` file to **custom** ```docker-compose``` file:
 
 ```
 mv docker-compose.yml docker-compose.yml.old && mv docker-compose-custom.yml docker-compose.yml
 ```
-7- Execute :
+7- Create container :
 ```
 docker-compose up
 ```
