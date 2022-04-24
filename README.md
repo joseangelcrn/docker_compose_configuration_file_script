@@ -24,3 +24,7 @@ curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/master
 ```
 mv docker-compose.yml docker-compose.yml.old && mv docker-compose-custom.yml docker-compose.yml
 ```
+6- Execute :
+```
+docker-compose up
+```
