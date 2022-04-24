@@ -31,7 +31,7 @@ custom_mariadb_database="laravel_db"
 custom_laravel_port_local=8000
 custom_laravel_mariadb_user=$custom_mariadb_user
 custom_laravel_mariadb_db=$custom_mariadb_database
-custom_laravel_volume=".my-project-custom"
+custom_laravel_volume=".\/my-project-custom"
 
 
 #Executing command...
