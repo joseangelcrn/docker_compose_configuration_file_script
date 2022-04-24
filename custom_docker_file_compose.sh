@@ -45,6 +45,3 @@ sed -e "s/$default_mariadb_user/$custom_mariadb_user/" \
  	> $output_path
 
 echo "Docker compose file has been update in: '$output_path'"
-
-
-
