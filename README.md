@@ -19,7 +19,7 @@ $ curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/mast
 ./custom_docker_compose.sh
 ```
 
-5- Execute to replace official ```docker-compose``` file to ```custom docker-compose``` file:
+5- Execute to replace **official** ```docker-compose``` file to **custom** ```docker-compose``` file:
 
 ```
 mv docker-compose.yml docker-compose.yml.old && mv docker-compose-custom.yml docker-compose.yml
