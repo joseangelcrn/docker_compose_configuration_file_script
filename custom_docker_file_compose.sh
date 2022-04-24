@@ -35,7 +35,7 @@ custom_laravel_volume=".my-project-custom"
 
 #Executing command...
 
-echo "Customing.."
+echo "customizing.."
 sed -e "s/$default_mariadb_user/$custom_mariadb_user/" \
 	-e "s/$default_mariadb_database/$custom_mariadb_database/" \
  	-e "s/\.$default_laravel_volume/$custom_laravel_volume/"  \
