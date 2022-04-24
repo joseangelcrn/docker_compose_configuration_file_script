@@ -1,4 +1,4 @@
-# docker_compose_configuration_file_script
+# docker_compose_configuration_file_script (laravel bitnami)
 Simple script to quick setup configuration such as ports, database name, volume folder, etc..
 
 
