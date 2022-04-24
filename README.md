@@ -14,7 +14,7 @@ mkdir my_laravel_app && cd my_laravel_app
 ```
 curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/master/docker-compose.yml
 ```
-3- Clone repository and open file ```custom_docker_file_compose.sh```  , then change whatever ```custom_``` variables to change default  bitnami laravel ```docker_compose.yml```  file. <br>
+3- Clone repository and open file ```custom_docker_file_compose.sh```  , then change whatever ```custom_``` variables to change default  bitnami laravel ```docker_compose.yml```  file. <br><br>
 4- Adapt other important variables such as:
   - ```$path_docker_compose_yml``` => Place where is original bitnami compose file
   - ```$output_path``` => Place where you want to save customize file after run script
