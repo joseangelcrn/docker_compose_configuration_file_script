@@ -18,3 +18,9 @@ $ curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/mast
 ```
 ./custom_docker_compose.sh
 ```
+
+5- Execute:
+
+```
+docker-compose up
+```
