@@ -19,6 +19,7 @@ default_laravel_port_docker=8000
 default_laravel_mariadb_user=$default_mariadb_user
 default_laravel_mariadb_db=$default_mariadb_database
 default_laravel_volume=".my-project"
+default_laravel_sufix_name="myapp"
 #-------------------------------------------------------
 
 #CUSTOM BITNAMI MARIADB VALUES
@@ -32,6 +33,7 @@ custom_laravel_port_local=8000
 custom_laravel_mariadb_user=$custom_mariadb_user
 custom_laravel_mariadb_db=$custom_mariadb_database
 custom_laravel_volume=".\/my-project-custom"
+custom_laravel_sufix_name="myCustomApp"
 
 
 #Executing command...
@@ -41,6 +43,7 @@ sed -e "s/$default_mariadb_user/$custom_mariadb_user/" \
 	-e "s/$default_mariadb_database/$custom_mariadb_database/" \
  	-e "s/\.$default_laravel_volume/$custom_laravel_volume/"  \
  	-e "s/$default_laravel_port_local:/$custom_laravel_port_local:/"  \
+ 	-e "s/$default_laravel_sufix_name:/$custom_laravel_sufix_name:/"  \
  	"$path_docker_compose_yml/docker-compose.yml" \
  	> $output_path
 
