@@ -47,4 +47,4 @@ sed -e "s/$default_mariadb_user/$custom_mariadb_user/" \
  	"$path_docker_compose_yml/docker-compose.yml" \
  	> $output_path
 
-echo "Docker compose file has been update in: '$output_path'"
+echo "Docker compose file has been updated in: '$output_path'"
