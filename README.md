@@ -22,5 +22,5 @@ $ curl -LO https://raw.githubusercontent.com/bitnami/bitnami-docker-laravel/mast
 5- Execute:
 
 ```
-docker-compose up
+mv docker-compose.yml docker-compose.yml.old && mv docker-compose-custom.yml docker-compose.yml
 ```
