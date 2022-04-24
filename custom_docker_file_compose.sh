@@ -22,8 +22,8 @@ default_laravel_volume=".my-project"
 
 #CUSTOM BITNAMI MARIADB VALUES
 
-custom_mariadb_user="jose"
-custom_mariadb_database="laravel_db"
+custom_mariadb_user="bn_myapp_custom"
+custom_mariadb_database="bitnami_myapp_custom"
 
 #CUSTOM BITNAMI LARAVEL VALUES 
 
